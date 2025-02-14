@@ -1,30 +1,53 @@
-<!-- DO NOT REMOVE EXISTING CONTENTS OF THIS FILE, EVEN IN YOUR REPOSITORY -->
-# Frontend assignment repository template
+# Frontend Intern Assessment - Zelthy
 
-This is a template repository for submitting assignment for the Frontend developer internship at Zelthy. All those who are submitting the frontend assignment must use this template.
+## **Project: Slot Booking Application**
 
-Assignment link: https://zelthy.com/assignments/frontend-intern
+### **Objective**
+Create a user-friendly slot booking application that allows users to configure their availability and view available time slots. Each user has a unique username to facilitate easy access to their availability.
 
-Submission form: https://forms.gle/o8tUdshRWS33tg8X6
+---
 
-### How to use this template?
+## **Requirements**
 
-1. If you are reading this on GitHub, click the "use this template" dropdown in the top right corner of the page and select "Create a new repository".
-<img width="1470" alt="Screenshot 2025-02-07 at 6 10 26 PM" src="https://github.com/user-attachments/assets/360f44ae-57e8-4c47-b768-cbfd95b3aa0a" />
+### **1. Core Features**
+#### **Slot Management**
+- Users can **view available slots** of other users.
+- Users can **create, update, and delete** their availability for different days.
+- Users can **change their timezone** to match their local time.
+- Users can **copy availability** for a specific day to another day.
 
-2. Next you will be redirected to create a new repository page on GitHub with this repository as a template. Fill the repository name and description and click "Create repository".
-<img width="1470" alt="Screenshot 2025-02-07 at 3 09 25 PM" src="https://github.com/user-attachments/assets/17bd7a00-99fb-4ff6-8003-4b96506189f3" />
+#### **Dashboard**
+- Displays a **list of available slots** in an intuitive UI.
+- Provides an **easy-to-navigate profile section** with minimal user details.
 
-3. And thats it! A new repository using this template has been created for you!
+#### **Responsive UI**
+- Ensures a **seamless experience** across mobile and desktop devices.
+- Uses **accessible design principles** to enhance usability.
 
-### How to submit the assignment?
+---
 
-1. Clone the repository that you created using the instructions above.
+## **2. Technical Requirements**
+- **Frontend:** Built using **React.js**.
+- **Styling:** Uses **Material UI** for a clean and modern UI.
+- **State Management & Backend:** Uses **Local Storage** for storing availability data.
+- **Deployment:** Hosted on **Vercel** for easy access.
 
-2. Add and commit your changes to that repository.
+---
 
-3. Push the changes to github.
+## **3. Bonus Features (Optional Enhancements)**
+- **Calendar View** for intuitive slot selection.
+- **Dark Mode Support** for better usability.
+- **Animated Transitions** for a smoother user experience.
 
-4. Go to the submission form and fill the details and submit the assignment.
+---
 
-## Happy coding!
+## **4. How to Run the Project Locally**
+### **Prerequisites**
+Ensure you have the following installed:
+- **Node.js** (v16 or higher)
+- **npm** or **yarn**
+  
+### **Steps to Run Locally**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SuvigyaSrivastava/SlotBookingWebApp.git
