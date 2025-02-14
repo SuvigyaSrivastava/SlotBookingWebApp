@@ -128,26 +128,7 @@ function Dashboard() {
   // --- NEW EXPORT FUNCTIONS ---
 
   // Export the current user's slots (all dates) as a CSV file.
-  const exportCSV = () => {
-    if (!currentUser) return;
-    let csvContent = "data:text/csv;charset=utf-8,Date,Start Time,End Time\n";
-    const availability = currentUser.availability;
-    for (const date in availability) {
-      const slots = availability[date];
-      slots.forEach(slot => {
-        csvContent += `${date},${slot.start},${slot.end}\n`;
-      });
-    }
-    const encodedUri = encodeURI(csvContent);
-    const link = document.createElement("a");
-    link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "slots.csv");
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-    toast.success("CSV exported successfully!");
-  };
-
+  
   // Export the current user's slots as a PDF file.
   const exportPDF = () => {
     if (!currentUser) return;
